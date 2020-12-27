@@ -19,3 +19,19 @@ alertCloseIcon.addEventListener('click', (e)=>{
 privacyPolicyText.addEventListener('click', ()=>{
     alertBoxDiv.style.display = "flex";
 });
+
+form.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    var dateString = ((date.value).split('-')).join("");
+    var sum=0;
+    for(letter of dateString){
+     sum = sum + Number(letter);  
+    }
+    var luckyNoJS= Number(luckyNo.value);
+    if(sum%luckyNoJS ===0){
+        outputDiv.innerHTML = outputPass;
+    }
+    else{
+        outputDiv.innerHTML = outputFail
+    }
+} );
