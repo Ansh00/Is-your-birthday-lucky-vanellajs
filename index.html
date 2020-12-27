@@ -15,7 +15,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
     <link rel="stylesheet" href="styles.css">
-    
+
 </head>
 <body>
     <div class="app"> 
@@ -28,4 +28,42 @@
                         <a href="#mainSection"><i class="fas fa-angle-down bounce"></i></a>
                     </div>
                 </section> 
+            </div>
+<div class="full-height" id="mainSection">
+                <section class="section shadowAround">
+                    <div id="alertBox" class="shadowAround">
+                        <div class="notice">
+                            <strong>Privacy Notice!</strong> We are not storing your data.
+                        </div>
+                
+                        <div id="crossIcon" style="padding-left:1rem; font-size: 1rem; cursor: pointer;">
+                            <i style="pointer-events: none;" class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <h2>Enter Your Birthdate and lucky number to continue...</h2>
+                    <form id="form">
+                        <label class="label" for="datePicker">
+                            Select your Birth date:
+                        </label>
+                        <input class="shadowAround"
+                            id="datePicker" type="date"
+                        />
+                        <label class="label" for="luckyNo">
+                            Enter your Lucky Number:
+                        </label>
+                        <input
+                        class="shadowAround"
+                            id="luckyNo"
+                            min="1"
+                            step="1"
+                            required
+                            type="number"
+                        />
+                        <button class="shadowAround" type="submit">check</button>
+                    </form>
+            
+                    <div class="output">
+                    
+                    </div>
+                </section>
             </div>
