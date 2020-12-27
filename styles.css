@@ -112,3 +112,29 @@ button:hover{
     animation-direction: alternate;
 
 }
+
+@keyframes bounceArrow{
+    0%{ transform: translateY(-5px);}
+    50%{transform: translateY(5px);}
+    100%{transform: translateY(0px);}
+    
+}
+
+#footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+}
+#footer li{
+    list-style: none;
+    padding: 1.5rem 1rem 1rem;
+    font-size: 1.1rem;
+}
+
+.legacyText{
+    font-size: 0.8rem;
+    padding-bottom: 1.5rem;
+}
