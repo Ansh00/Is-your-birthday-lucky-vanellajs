@@ -1,5 +1,5 @@
-var outputPass=`<div class="label">Yiipee!!You are a lucky person!</div><img width="100%" height="200px" src="/undraw_feeling_happy_jymo.svg" alt="image">`
-var outputFail=`<div class="label">Oops!!Your birthday is not a lucky number!</div><img width="100%" height="200px" src="/undraw_walk_dreaming_u58a.svg" alt="image">`
+var outputPass=`<div class="label">Yiipee!!You are a lucky person!</div><img width="100%" height="200px" src="images/happy.png" alt="image">`
+var outputFail=`<div class="label">Oops!!Your birthday is not a lucky number!</div><img width="100%" height="200px" src="images/sad.png" alt="image">`
 
 var alertCloseIcon = document.querySelector("#crossIcon");
 var privacyPolicyText = document.querySelector("#privacyPolicyText");
