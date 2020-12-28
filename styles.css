@@ -11,7 +11,7 @@ body{
     margin: 0 auto;
 }
 .parallax{
-    background-image: url(/bg.jpg);
+    background-image: url(images/Wish.png);
     min-height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
