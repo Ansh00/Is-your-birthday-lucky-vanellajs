@@ -60,7 +60,7 @@ h2{
     padding: 1rem;
     margin: 1rem auto;
     
-    background-color: #93C5FD;    
+    background-color: #dd1212;    
 }
 
 .label{
@@ -94,7 +94,7 @@ button{
 
 button:hover{
     color: white;
-    background-color: #1E3A8A;
+    background-color: #2b8a1e;
 }
 
 .shadowAround{
